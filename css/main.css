@@ -1,0 +1,353 @@
+/***** Whole Site *****/
+/*h1 font*/
+@font-face {
+    font-family: 'adefebia';
+    src: url('../fonts/adefebia-wedding-font.otf') format('opentype');
+}
+
+/*headings and nav font */
+@font-face {
+    font-family: 'zebrazil';
+    src: url('../fonts/zebrazil.ttf')
+}
+
+body{
+    color: #0a2342;
+    background: #fffdf7;
+}
+.container{
+    width: auto;
+    height: auto;
+    min-width: 800px;
+    max-width:1280px;
+    min-height: 374px;
+    max-height: 704px;   
+}
+
+
+/***** Main *****/
+#title-head {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    float: left;
+    background: url('../img/background.png') no-repeat;
+    width: 1089px;
+    height: 700px;
+}
+
+#title{
+    font-family: 'adefebia', 'pacifico', cursive;
+    font-size: 130px;
+    margin-top: 0px;
+    margin-left: 0px; 
+    text-align: center;
+}
+
+a { 
+    color: inherit; 
+}
+
+
+/***** Aside *****/
+aside {
+    font-family: raleway;
+    font-size: 23px;
+    max-height: 700px;
+    max-width: 180px;
+    float: left;
+}
+
+#nav-bar {
+   list-style-type: none;
+   font-size: 25px;
+   text-decoration: none;
+   text-transform: uppercase;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-left: 0px;
+   line-height: 75px;
+   text-align: right;
+   height: 500px;
+   width: 180px;
+}
+
+
+#logo img{
+    width: 100px;
+    height: 84px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 84px;
+}
+
+.aside-nav section {
+    height: 200px;
+    width: 180px;
+    margin-top: 60px;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-bottom:0px; 
+    display: block;
+    padding: auto;
+}
+
+/***** Top Nav Bar *****/
+.top-nav-bar {
+    background: url('../img/brick-wall.png') no-repeat; 
+    width: auto;
+    max-width: 1280px;
+    height: auto;
+    max-height: 124px;
+    font-size: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    list-style-type: none;
+    float: left;    
+   
+}
+.top-nav-bar div {
+    height: auto;
+    max-height: 124px;
+    width: 426px;
+    margin: 0px;
+    
+}
+
+header img{
+    height: 50%;
+    width: 100px;
+    padding-top: 4%;
+    margin-left: 5px;
+
+}
+
+.page-title {
+    padding-left: 35px;
+    word-spacing: 10px;
+    font-family: 'adefebia', 'pacifico', cursive;
+    font-size: 57px;
+    text-align: center;
+    float: left;
+    margin-top: 4px; 
+
+}
+.top-nav-bar a{
+    text-decoration: none;
+}
+.top-nav-bar li{
+    float: left;
+    display: inline-block;
+    padding: 20px;
+    text-align: right;
+    font-family: raleway;
+}
+
+.nav-third-width{
+    width:400px;
+    margin: 5px;
+    float: left;
+}
+
+/***** Footer *****/
+footer {
+    font-family: raleway;
+    text-align: center;
+    font-weight: 300;
+    color: #fffdf7;
+    background: #0a2342;
+    height: 75px;
+    padding-top: 4px;
+
+}
+
+footer h6{
+    color: #F3E7CD;
+    font-size: 15px;
+    margin-top: 5px;  
+}
+footer span{
+    font-family: 'adefebia', 'pacifico', cursive;
+    color: #e0bf76;
+}
+footer div{
+    font-size: 12px; 
+    margin-top: -30px;    
+}
+footer img {
+    height: 8px;
+    width: 8px;
+    display: inline-block
+}
+
+/*****About Me Header*****/
+body {
+    width: auto;
+    height: auto;
+}
+
+
+.bio {
+    text-align: center;
+    margin-top: -50px;
+    padding: 100px 200px 100px 200px;
+    background: #e0bf76;
+}
+.full-width{
+    width: 1280px;
+    height: 120px; 
+    float: left;
+}
+
+#talents {
+    height: 550px;
+    padding-top: 10px;
+    
+}
+
+
+
+  
+/***** About Me Main *****/
+Main {
+    clear: both;
+}
+
+.third-width{
+    width:400px;
+    margin-left: 0px;
+    float: left;
+    padding: 50px 10px 0px 10px; 
+}
+
+.img {
+    padding-left: 25px;
+}
+
+h3 {
+    Font-family: raleway;
+    font-size: 21px;
+    letter-spacing: 2px;
+    Text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: Quicksand;
+    font-size: 14px;
+    padding:0 20px 0 20px;
+    text-align: justify;
+}
+
+#css-text {
+    margin-left: 10px; 
+}
+
+#offer-list li{
+    font-family: Quicksand;
+    font-size: 14px;
+    list-style-type: square;
+    list-style: square;
+}
+#talents {
+    margin-bottom: 45px;
+}
+/***** My Work *****/
+
+.my-work {
+    width: auto;
+    max-width: 1325px;
+}
+
+.my-work div {
+    width: auto;
+    max-width: 1325px;
+    height: auto;
+    max-height: 700px;
+    padding: 50px;
+}
+.my-work p {
+    width: 500px;
+    text-align: center;
+    margins: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.my-work img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.business-card {
+    background: #e0bf76;
+}
+
+/***** Hire Me *****/
+
+.page-title span{
+    font-size: 45px;
+}
+.hire-me {
+    width: 1280px;
+    height: 700px;
+}
+.hire-me div{
+    float: left;
+    height: 700px;
+    max-height: 700px;
+}
+
+.find-me {
+    float: left;
+    width: 640px;
+    text-align: center;
+
+}
+
+.find-me h3 {
+    margin-top: 60px;
+
+}
+.find-me p {
+    font-size: 18px;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.find-me img{
+    height: 60px;
+    width: 60px;
+    
+}
+.find-me ul {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    
+}
+.find-me li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+    margin: 10px;
+   
+}
+
+.contact-me {
+    background: #e0bf76;
+    float: left;
+    width: 640px;
+}
+
